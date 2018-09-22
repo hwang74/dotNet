@@ -1,5 +1,7 @@
 # C# Study Note
 
+## [Programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/index)
+
 ## Date Types
 
 | type     | size(bytes)     | .NET type       | range                                                   |
@@ -32,6 +34,8 @@ they are discrete pieces of functionality in an application. They are analogous 
 
 these are identifiers or names, that you create to hold values or references to objects in your code. A variable is essentially a named memory location
 
+### [Reserved Key Words](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/index)
+
 ## Operators
 
 | type                               | operators                                   |
@@ -62,13 +66,23 @@ long myLong = myInt;
 
 ### Explicit
 
+#### option 1
+
 ```c#
 double myDouble = 123.4;
-// option A:
 int myInt = (int)myDouble;
-// option B:
+```
+
+#### option 2: [Convert class](https://docs.microsoft.com/en-us/dotnet/api/system.convert?view=netframework-4.7.2)
+
+```c#
+double myDouble = 123.4;
 int myInt = Convert.ToInt32(myDouble);
-// option C: return true if parsed and store result in variable after 'out'
+```
+
+#### option 3: type specific methods
+
+```c#
 bool myBool = Int32.TryPrase(myDouble, out myInt);
 // option D:
 int myInt = Int32.Parse(myDouble);

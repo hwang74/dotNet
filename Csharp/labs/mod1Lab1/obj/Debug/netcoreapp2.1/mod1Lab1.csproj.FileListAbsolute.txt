@@ -1,0 +1,11 @@
+/Users/hwangmac/Repos/github/dotNet/Csharp/labs/mod1Lab1/bin/Debug/netcoreapp2.1/mod1Lab1.deps.json
+/Users/hwangmac/Repos/github/dotNet/Csharp/labs/mod1Lab1/bin/Debug/netcoreapp2.1/mod1Lab1.runtimeconfig.json
+/Users/hwangmac/Repos/github/dotNet/Csharp/labs/mod1Lab1/bin/Debug/netcoreapp2.1/mod1Lab1.runtimeconfig.dev.json
+/Users/hwangmac/Repos/github/dotNet/Csharp/labs/mod1Lab1/bin/Debug/netcoreapp2.1/mod1Lab1.dll
+/Users/hwangmac/Repos/github/dotNet/Csharp/labs/mod1Lab1/bin/Debug/netcoreapp2.1/mod1Lab1.pdb
+/Users/hwangmac/Repos/github/dotNet/Csharp/labs/mod1Lab1/obj/Debug/netcoreapp2.1/mod1Lab1.csprojAssemblyReference.cache
+/Users/hwangmac/Repos/github/dotNet/Csharp/labs/mod1Lab1/obj/Debug/netcoreapp2.1/mod1Lab1.csproj.CoreCompileInputs.cache
+/Users/hwangmac/Repos/github/dotNet/Csharp/labs/mod1Lab1/obj/Debug/netcoreapp2.1/mod1Lab1.AssemblyInfoInputs.cache
+/Users/hwangmac/Repos/github/dotNet/Csharp/labs/mod1Lab1/obj/Debug/netcoreapp2.1/mod1Lab1.AssemblyInfo.cs
+/Users/hwangmac/Repos/github/dotNet/Csharp/labs/mod1Lab1/obj/Debug/netcoreapp2.1/mod1Lab1.dll
+/Users/hwangmac/Repos/github/dotNet/Csharp/labs/mod1Lab1/obj/Debug/netcoreapp2.1/mod1Lab1.pdb
