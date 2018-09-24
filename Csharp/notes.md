@@ -87,3 +87,26 @@ bool myBool = Int32.TryPrase(myDouble, out myInt);
 // option D:
 int myInt = Int32.Parse(myDouble);
 ```
+
+## Error Handling
+
+```csharp
+try
+{
+}
+catch (NullReferenceException ex)
+{
+    // Catch all NullReferenceException exceptions.
+}
+catch (Exception ex)
+{
+    // Catch all other exceptions.
+    // If this catch handler cannot resolve the exception, 
+    // throw it to the calling code
+    throw;
+}
+finally
+{
+   // Code that always runs to close files or release resources.
+}
+```
