@@ -1,0 +1,11 @@
+C:\Users\wangha\source\Repos\Personal\dotNet\labs\myMovieApp\bin\Debug\netcoreapp2.1\myMovieApp.deps.json
+C:\Users\wangha\source\Repos\Personal\dotNet\labs\myMovieApp\bin\Debug\netcoreapp2.1\myMovieApp.runtimeconfig.json
+C:\Users\wangha\source\Repos\Personal\dotNet\labs\myMovieApp\bin\Debug\netcoreapp2.1\myMovieApp.runtimeconfig.dev.json
+C:\Users\wangha\source\Repos\Personal\dotNet\labs\myMovieApp\bin\Debug\netcoreapp2.1\myMovieApp.dll
+C:\Users\wangha\source\Repos\Personal\dotNet\labs\myMovieApp\bin\Debug\netcoreapp2.1\myMovieApp.pdb
+C:\Users\wangha\source\Repos\Personal\dotNet\labs\myMovieApp\obj\Debug\netcoreapp2.1\myMovieApp.csprojAssemblyReference.cache
+C:\Users\wangha\source\Repos\Personal\dotNet\labs\myMovieApp\obj\Debug\netcoreapp2.1\myMovieApp.csproj.CoreCompileInputs.cache
+C:\Users\wangha\source\Repos\Personal\dotNet\labs\myMovieApp\obj\Debug\netcoreapp2.1\myMovieApp.AssemblyInfoInputs.cache
+C:\Users\wangha\source\Repos\Personal\dotNet\labs\myMovieApp\obj\Debug\netcoreapp2.1\myMovieApp.AssemblyInfo.cs
+C:\Users\wangha\source\Repos\Personal\dotNet\labs\myMovieApp\obj\Debug\netcoreapp2.1\myMovieApp.dll
+C:\Users\wangha\source\Repos\Personal\dotNet\labs\myMovieApp\obj\Debug\netcoreapp2.1\myMovieApp.pdb
