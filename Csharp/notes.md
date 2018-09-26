@@ -1,4 +1,4 @@
-# C# Study Note
+# csharp Study Note
 
 ## [Programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/index)
 
@@ -30,6 +30,52 @@ classes are the blueprints for reference types. They specify the structure an ob
 
 they are discrete pieces of functionality in an application. They are analogous to functions in the non-object-oriented programming world  
 
+#### Access modifier
+
+to control the accessibility of the method (from where it can be called)
+
+- private: most restrictive and allows access to the method only from within the containing class or struct
+
+- public: least restrictive, allowing access from any code in the application
+
+- protected: allows for access from within the containing class or from within derived classes
+
+- internal: accessible from files within the same assembly
+
+- static: indicates the method is a static member of the class rather than a member of an instance of a specific object
+
+#### Overloaded Method
+
+The signature of a method includes its name and its parameter list. The return type or the order of parameters is not part of the signature.
+
+```csharp
+void StopService()
+{
+   // This method accepts no arguments
+}
+
+void StopService(string serviceName)
+{
+   // This method overload accepts a single string argument
+}
+
+void StopService(int serviceId)
+{
+   // This method overload accepts a single integer argument
+}
+```
+
+#### Optional Parameter
+
+denote an optional parameter is the inclusion of a default value
+
+```csharp
+void StopService(bool forceStop, string serviceName = null, int serviceId =1)
+{
+   // code here that will stop the service
+}
+```
+
 ### Variables
 
 these are identifiers or names, that you create to hold values or references to objects in your code. A variable is essentially a named memory location
@@ -59,7 +105,7 @@ these are identifiers or names, that you create to hold values or references to 
 
 ### Implicit
 
-```c#
+```csharp
 int myInt = 123;
 long myLong = myInt;
 ```
@@ -68,21 +114,21 @@ long myLong = myInt;
 
 #### option 1
 
-```c#
+```csharp
 double myDouble = 123.4;
 int myInt = (int)myDouble;
 ```
 
 #### option 2: [Convert class](https://docs.microsoft.com/en-us/dotnet/api/system.convert?view=netframework-4.7.2)
 
-```c#
+```csharp
 double myDouble = 123.4;
 int myInt = Convert.ToInt32(myDouble);
 ```
 
 #### option 3: type specific methods
 
-```c#
+```csharp
 bool myBool = Int32.TryPrase(myDouble, out myInt);
 // option D:
 int myInt = Int32.Parse(myDouble);
