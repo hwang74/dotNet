@@ -1,6 +1,9 @@
-# csharp Study Note
+# C# Syntax
 
-## [Programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/index)
+## References
+
+- [Programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/index)
+- [C# in VS Code](https://code.visualstudio.com/docs/languages/csharp)
 
 ## Date Types
 
@@ -132,4 +135,29 @@ int myInt = Convert.ToInt32(myDouble);
 bool myBool = Int32.TryPrase(myDouble, out myInt);
 // option D:
 int myInt = Int32.Parse(myDouble);
+```
+
+## Error Handling
+
+[Exception Class](https://docs.microsoft.com/en-us/dotnet/api/system.exception?redirectedfrom=MSDN&view=netframework-4.7.2)
+
+```csharp
+try
+{
+}
+catch (NullReferenceException ex)
+{
+    // Catch all NullReferenceException exceptions.
+}
+catch (Exception ex)
+{
+    // Catch all other exceptions.
+    // If this catch handler cannot resolve the exception, 
+    // throw it to the calling code
+    throw;
+}
+finally
+{
+   // Code that always runs to close files or release resources.
+}
 ```
