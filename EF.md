@@ -7,3 +7,9 @@ a programming technique of connecting an object model in an object-oriented prog
 ## Model
 
 With EF Core, data access is performed using a model. A model is made up of entity classes and a derived context that represents a session with the database, allowing you to query and save data.
+
+## Scaffold
+MySql
+```shell
+dotnet ef dbcontext scaffold "server=localhost;userid=root;pwd=rootpw;port=3306;database=Movies;sslmode=none;" Pomelo.EntityFrameworkCore.MySql -o Entities
+```
