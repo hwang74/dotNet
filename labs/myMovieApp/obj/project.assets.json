@@ -3241,30 +3241,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wangha\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/hwangmac/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wangha\\source\\Repos\\Personal\\dotNet\\labs\\myMovieApp\\myMovieApp.csproj",
+      "projectUniqueName": "/Users/hwangmac/Repos/github/dotNet/labs/myMovieApp/myMovieApp.csproj",
       "projectName": "myMovieApp",
-      "projectPath": "C:\\Users\\wangha\\source\\Repos\\Personal\\dotNet\\labs\\myMovieApp\\myMovieApp.csproj",
-      "packagesPath": "C:\\Users\\wangha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wangha\\source\\Repos\\Personal\\dotNet\\labs\\myMovieApp\\obj\\",
+      "projectPath": "/Users/hwangmac/Repos/github/dotNet/labs/myMovieApp/myMovieApp.csproj",
+      "packagesPath": "/Users/hwangmac/.nuget/packages/",
+      "outputPath": "/Users/hwangmac/Repos/github/dotNet/labs/myMovieApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\wangha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/hwangmac/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

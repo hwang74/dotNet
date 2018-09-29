@@ -152,7 +152,7 @@ catch (NullReferenceException ex)
 catch (Exception ex)
 {
     // Catch all other exceptions.
-    // If this catch handler cannot resolve the exception, 
+    // If this catch handler cannot resolve the exception,
     // throw it to the calling code
     throw;
 }
